@@ -1,0 +1,22 @@
+//mixin background-url
+@mixin bg-style($background-image, $background-size, $background-repeat, $background-position, $height){
+    background-image: $background-image;
+    background-size: $background-size;
+    background-repeat: $background-repeat;
+    background-position: $background-position;
+    height: $height;
+}
+
+
+@mixin text-style($margin, $max-width, $text-align){
+    margin: $margin;
+    max-width: $max-width;
+    text-align: $text-align;
+}
+
+@mixin position-content-human($float, $margin-top, $margin-left, $margin-right){
+    float: $float;
+    margin-top: $margin-top;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+}

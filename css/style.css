@@ -1,0 +1,433 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+* {
+  color: #fff;
+}
+* a {
+  text-decoration: none;
+}
+
+.container00 .titlePadding {
+  display: flex;
+  flex-direction: column;
+}
+.container00 .h5 {
+  margin-top: 20vh;
+}
+.container00 #button {
+  height: 60px;
+  max-width: 150px;
+}
+
+.container01 {
+  background-image: url(../../images/home/fundo1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.container01 .logoPc {
+  width: 250px;
+}
+.container01 .link-edition {
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.container01 .arrow {
+  width: 90px;
+}
+
+.container02 {
+  background-image: url(../../images/home/fundo2.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.container02 .h1 {
+  max-width: 600px;
+}
+
+.container03 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7f74ab81505303.5d02aa15a7ab5.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container03 .h1 {
+  max-width: 600px;
+}
+
+.container04 {
+  background-image: url(../../images/home/fundo4.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.container04 .h1 {
+  max-width: 600px;
+  margin-top: 20vh;
+}
+
+.footer {
+  background-color: #000;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  font-size: 12px;
+}
+.footer span {
+  color: #555252;
+}
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer a:hover {
+  color: #cbc6c6;
+}
+
+.container01-falcon {
+  background-image: url(../../images/falcon9/fundo/fundo1.jpg);
+}
+
+.titleFalcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 33vh auto;
+}
+.titleFalcon h1 {
+  font-size: 5.5em;
+  font-weight: bold;
+}
+
+.bgFoguetes {
+  background-color: #000;
+}
+.bgFoguetes .infoFoguetes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 40vh;
+}
+.bgFoguetes .infoFoguetes p {
+  text-align: center;
+  font-size: 5.5em;
+}
+.bgFoguetes .infoFoguetes span {
+  font-size: 1.3em;
+}
+
+.container02-falcon {
+  background-image: url(../../images/falcon9/fundo/fundo2.jpg);
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.container02-falcon p {
+  max-width: 70%;
+  font-size: 1.5em;
+  line-height: 5vh;
+  margin-left: 5%;
+}
+
+.container03-falcon .carousel-item01 {
+  background-image: url(../../images/falcon9/carrossel1/imagem1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container03-falcon .carousel-item01 .info01 {
+  margin: 23vh 15vw;
+}
+.container03-falcon .carousel-item01 .info01 table {
+  max-width: 500px;
+}
+.container03-falcon .carousel-item01 .info01 table td {
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid #fff;
+}
+.container03-falcon .carousel-item01 .info01 table .text-end {
+  align-items: right;
+}
+.container03-falcon .carousel-item02 {
+  background-image: url(../../images/falcon9/carrossel1/imagem2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container03-falcon .carousel-item02 .info02 {
+  margin: 23vh 15vh;
+  max-width: 500px;
+  text-align: justify;
+}
+.container03-falcon .carousel-item03 {
+  background-image: url(../../images/falcon9/carrossel1/imagem3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container03-falcon .carousel-item03 .info03 {
+  margin: 23vh 15vh;
+  max-width: 480px;
+  text-align: justify;
+}
+.container03-falcon .carousel-item03 .info03 table {
+  width: 430px;
+}
+.container03-falcon .carousel-item03 .info03 table td {
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid #fff;
+}
+.container03-falcon .carousel-item03 .info03 table .text-end {
+  align-items: right;
+}
+.container03-falcon .carousel-item04 {
+  background-image: url(../../images/falcon9/carrossel1/imagem4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container03-falcon .carousel-item04 .info04 {
+  margin: 23vh 15vh;
+  max-width: 400px;
+  text-align: justify;
+}
+.container03-falcon .carousel-item05 {
+  background-image: url(../../images/falcon9/carrossel1/imagem5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container03-falcon .carousel-item05 .info05 {
+  margin: 23vh 15vh;
+  max-width: 460px;
+  text-align: justify;
+}
+.container03-falcon .carousel-item05 .info05 table {
+  width: 420px;
+}
+.container03-falcon .carousel-item05 .info05 table td {
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid #fff;
+}
+.container03-falcon .carousel-item05 .info05 table .text-end {
+  align-items: right;
+}
+
+.container04-falcon {
+  background-image: url(../../images/falcon9/fundo/fundo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container04-falcon .text-container04 {
+  width: 500px;
+  margin-left: 10vw;
+  padding-top: 30vh;
+  text-align: justify;
+}
+.container04-falcon .text-container04 table {
+  width: 500px;
+}
+.container04-falcon .text-container04 table td {
+  padding: 0.5rem 0.5rem;
+  border-bottom: 1px solid #fff;
+}
+
+.container05-falcon p {
+  background-color: #000;
+}
+.container05-falcon .carousel-item01 {
+  background-image: url(../../images/falcon9/carrossel2/imagem1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container05-falcon .carousel-item02 {
+  background-image: url(../../images/falcon9/carrossel2/imagem2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container05-falcon .carousel-item03 {
+  background-image: url(../../images/falcon9/carrossel2/imagem3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container05-falcon .carousel-item04 {
+  background-image: url(../../images/falcon9/carrossel2/imagem4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container05-falcon .carousel-item05 {
+  background-image: url(../../images/falcon9/carrossel2/imagem5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container05-falcon .carousel-item06 {
+  background-image: url(../../images/falcon9/carrossel2/imagem6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.container06-falcon {
+  background-color: #000;
+  height: 85vh;
+}
+.container06-falcon .informacoes-finais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 26vh;
+}
+.container06-falcon .informacoes-finais a {
+  color: gray;
+}
+.container06-falcon .informacoes-finais .btns-finais {
+  display: flex;
+  gap: 20px;
+  margin-top: -50px;
+}
+.container06-falcon .informacoes-finais .btns-finais button {
+  height: 60px;
+}
+
+footer a {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.container01-human {
+  background-image: url(../../images/human/fundo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.container02-human {
+  background-color: #000;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container02-human p {
+  max-width: 70%;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.container02-human a {
+  color: #fff;
+}
+.container02-human a:hover {
+  color: rgb(88, 88, 233);
+}
+
+.container03-human {
+  background-image: url(../../images/human/fundo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container03-human .content03-human {
+  float: right;
+  margin-top: 30vh;
+  margin-left: 0;
+  margin-right: 5vw;
+}
+.container03-human .content03-human h2 {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+.container03-human .content03-human #button-human {
+  padding: 1rem 2.5rem;
+}
+
+.container04-human {
+  background-image: url(../../images/human/fundo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container04-human .content04-human {
+  float: left;
+  margin-top: 30vh;
+  margin-left: 5vw;
+  margin-right: 0;
+}
+.container04-human .content04-human h2 {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+.container04-human .content04-human #button-human {
+  padding: 1rem 2.5rem;
+}
+
+.container05-human {
+  background-image: url(../../images/human/fundo4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container05-human .content05-human {
+  float: right;
+  margin-top: 30vh;
+  margin-left: 0;
+  margin-right: 5vw;
+}
+.container05-human .content05-human h2 {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+.container05-human .content05-human #button-human {
+  padding: 1rem 2.5rem;
+}
+
+.container06-human {
+  background-image: url(../../images/human/fundo5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.container06-human .content06-human {
+  float: LEFT;
+  margin-top: 30vh;
+  margin-left: 5vw;
+  margin-right: 0;
+}
+.container06-human .content06-human h2 {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+.container06-human .content06-human #button-human {
+  padding: 1rem 2.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

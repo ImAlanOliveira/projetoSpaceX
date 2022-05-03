@@ -1,0 +1,96 @@
+@import "./mixin.scss";
+
+.container01-human {
+    @include bg-style(url(../../images/human/fundo1.jpg), cover, no-repeat, center, 100vh);
+}
+
+.container02-human {
+    background-color: #000;
+    height: 40vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    p{
+        max-width:70%;
+        text-align:center;
+        font-size:1.2rem;
+    }
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: rgb(88, 88, 233);
+        }
+    }
+}
+
+.container03-human {
+    @include bg-style(url(../../images/human/fundo2.jpg), cover, no-repeat, center, 100vh);
+
+    .content03-human{
+       @include position-content-human(right, 30vh, 0, 5vw);
+
+       h2{
+           font-size:3.6rem;
+           font-weight:bold;
+       }
+
+       #button-human{
+           padding: 1rem 2.5rem;
+       }
+    }
+}
+
+.container04-human{
+    @include bg-style(url(../../images/human/fundo3.jpg), cover, no-repeat, center, 100vh);
+
+    .content04-human{
+        @include position-content-human(left, 30vh, 5vw, 0);
+
+        h2{
+            font-size: 3.6rem;
+            font-weight:bold;
+
+        }
+
+      #button-human{
+        padding: 1rem 2.5rem;
+      }
+    }
+}
+
+.container05-human{
+    @include bg-style(url(../../images/human/fundo4.jpg), cover, no-repeat, center, 100vh);
+
+    .content05-human{
+        @include position-content-human(right, 30vh, 0, 5vw);
+
+        h2{
+            font-size:3.6rem;
+            font-weight:bold;
+        }
+
+        #button-human{
+            padding: 1rem 2.5rem;
+        }
+    }
+}
+
+.container06-human{
+    @include bg-style(url(../../images/human/fundo5.jpg), cover, no-repeat, center, 100vh);
+
+    .content06-human{
+        @include position-content-human(LEFT, 30vh,5vw, 0);
+
+        h2{
+            font-size:3.6rem;
+            font-weight:bold;
+        }
+
+        #button-human{
+            padding: 1rem 2.5rem;
+        }
+    }
+}

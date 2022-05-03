@@ -1,0 +1,92 @@
+.container00{
+    .titlePadding{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .h5{
+        margin-top:20vh;
+    }
+
+    #button{
+        height:60px;
+        max-width:150px;
+    }
+
+}
+
+.container01{
+    background-image: url(../../images/home/fundo1.jpg);
+    background-size:cover;
+    height:100vh;
+
+    
+    .logoPc{
+        width:250px;
+    }
+
+    .link-edition{
+        font-size:0.7em;
+        font-weight: bold;
+        margin-left:10px;
+    }   
+   .arrow{
+        width:90px;
+    }
+}
+
+.container02{
+    background-image:url(../../images/home/fundo2.jpg);
+    background-size:cover;
+    height:100vh;
+
+    .h1{
+        max-width:600px;
+    }
+}
+
+.container03{
+    background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7f74ab81505303.5d02aa15a7ab5.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+
+    .h1{
+        max-width:600px;
+    }
+}
+
+.container04{
+    background-image:url(../../images/home/fundo4.jpg);
+    background-size:cover;
+    height:100vh;
+
+    .h1{
+        max-width:600px;
+        margin-top:20vh;
+    }
+}
+
+.footer{
+    background-color:#000;
+    height:15vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    column-gap:20px;
+    font-size:12px;
+
+
+    span{
+        color:#555252;
+    }
+
+    a{
+        text-decoration:none;
+        color:#fff;
+        
+        &:hover{
+            color:#cbc6c6;
+        }
+    }
+}
